@@ -61,3 +61,8 @@ a:visited {
 a:hover {
   color: #8662c7;
 }
+
+.container {
+  display: grid;
+/*   grid-template-columns: auto; */
+}
