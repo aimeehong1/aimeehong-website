@@ -30,14 +30,18 @@ body {
 nav {
   background-color: #CBC3E3;
   padding: 20px;
-  height: 60px;
+/*   height: 75px; */
   width: 100%;
   border: 1pt;
 }
-nav a {
-  text-decoration: none;
-  margin-top: 50px;
-  padding: 500px 40px;
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li {
+/*   margin-top: 50px; */
+  padding: 25px 40px;
   font-weight: bold;
 }
 
