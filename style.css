@@ -22,14 +22,36 @@ figcaption {
 /* Import fonts */
 
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Times New Roman", sans-serif;
+  background-color: #f0f4f8;
+  font-weight: 300;
 }
 
 nav {
-  margin: 30px;
+  background-color: #CBC3E3;
+  height: 50px;
+  width: 100%;
+  
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  font-style: bold;
 }
 
 #box-profile {
   background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783");
   background-size: cover;
+}
+
+a:link {
+  color: #51279b;
+  font-weight: 550;
+  text-decoration: none;
+}
+a:visited {
+  color: #51279b;
+}
+a:hover {
+  color: #8662c7;
 }
