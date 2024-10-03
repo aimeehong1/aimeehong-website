@@ -23,20 +23,22 @@ figcaption {
 
 body {
   font-family: "Times New Roman", sans-serif;
-  background-color: #f0f4f8;
+  background-color: #ffffff;
   font-weight: 300;
 }
 
 nav {
   background-color: #CBC3E3;
-  height: 50px;
+  padding: 20px;
+  height: 60px;
   width: 100%;
-  
+  border: 1pt;
 }
 nav a {
   text-decoration: none;
-  padding: 20px;
-  font-style: bold;
+  margin-top: 50px;
+  padding: 500px 40px;
+  font-weight: bold;
 }
 
 #box-profile {
