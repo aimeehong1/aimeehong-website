@@ -8,15 +8,6 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
   padding: 0;
 }
 
-/* Import fonts */
-
-body {
-  font-family: "Times New Roman", sans-serif;
-  background-color: #000000;
-  font-weight: 300;
-  color: #ffffff;
-}
-
 nav {
   background-color: #CBC3E3;
   padding: 20px;
@@ -34,6 +25,13 @@ nav ul li {
 /*   margin-top: 50px; */
   padding: 25px 40px;
   font-weight: bold;
+}
+
+body {
+  font-family: "Times New Roman", sans-serif;
+  background-color: #000000;
+  font-weight: 300;
+  color: #ffffff;
 }
 
 /* #box-profile {
