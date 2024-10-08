@@ -36,7 +36,7 @@ nav ul li {
   font-weight: bold;
 }
 
-#box-profile {
+/* #box-profile {
   background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783");
   background-size: cover;
 }
@@ -44,7 +44,6 @@ nav ul li {
 a:link {
   color: #51279b;
   font-weight: 550;
-  text-decoration: none;
 }
 a:visited {
   color: #51279b;
@@ -56,4 +55,4 @@ a:hover {
 .container {
   display: grid;
 /*   grid-template-columns: auto; */
-}
+} */
