@@ -3,18 +3,7 @@
   box-sizing: border-box;
 }
 
-body,
-section,
-header,
-div,
-p,
-h1,
-h2,
-h3,
-ul,
-li,
-figure,
-figcaption {
+body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
   margin: 0;
   padding: 0;
 }
@@ -23,8 +12,9 @@ figcaption {
 
 body {
   font-family: "Times New Roman", sans-serif;
-  background-color: #ffffff;
+  background-color: #000000;
   font-weight: 300;
+  color: #ffffff;
 }
 
 nav {
@@ -35,6 +25,7 @@ nav {
   border: 1pt;
 }
 nav ul {
+  display: flex;
   list-style-type: none;
   display: inline-block;
 }
