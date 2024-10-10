@@ -19,6 +19,8 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
 } 
 
 .box-profile, .bio, .news, .projects {
+  display: flex;
+  flex-direction: columns;
   padding: 25px;
 /*   background: #ffffff; */
   text-align: center;
