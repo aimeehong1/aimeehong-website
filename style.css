@@ -1,14 +1,25 @@
- /* Basic page style resets */
+/* Basic page style resets */
 * {
   box-sizing: border-box;
 }
 
-body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
+body,
+section,
+header,
+div,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+figure,
+figcaption {
   margin: 0;
   padding: 0;
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width: 750px) {
   display: grid;
   grid-template-columns: auto;
 }
@@ -16,18 +27,26 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
 .container {
   display: grid;
   grid-template-columns: auto auto;
-} 
+  margin: 1em;
+  grid-gap: 1em;
+  align-self: center;
+  justify-self: center;
+}
 
-.box-profile, .bio, .news, .projects {
+.box-profile,
+.bio,
+.news,
+.projects {
   display: flex;
-  flex-direction: columns;
+  flex-direction: column;
   padding: 25px;
-/*   background: #ffffff; */
+  margin: 1em;
+  /*   background: #ffffff; */
   text-align: center;
 }
 
 nav {
-  background-color: #CBC3E3;
+  background-color: #cbc3e3;
   padding: 20px;
   width: 100%;
   border: 1pt;
@@ -39,7 +58,7 @@ nav ul {
 }
 
 nav ul li {
-/*   margin-top: 50px; */
+  /*   margin-top: 50px; */
   padding: 25px 40px;
   font-weight: bold;
 }
