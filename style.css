@@ -10,7 +10,11 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
+} 
+
+.box-profile, .bio, .news, .projects {
+  padding: 25px;
 }
 
 nav {
@@ -54,8 +58,3 @@ a:visited {
 a:hover {
   color: #8662c7;
 }
-
-.container {
-  display: grid;
-  grid-template-columns: auto;
-} 
