@@ -15,12 +15,12 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
 
 .box-profile, .bio, .news, .projects {
   padding: 25px;
+/*   background: #ffffff; */
 }
 
 nav {
   background-color: #CBC3E3;
   padding: 20px;
-/*   height: 75px; */
   width: 100%;
   border: 1pt;
 }
