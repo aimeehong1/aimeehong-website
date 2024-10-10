@@ -8,6 +8,11 @@ body, section, header, div, p, h1, h2, h3, ul, li, figure, figcaption {
   padding: 0;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 nav {
   background-color: #CBC3E3;
   padding: 20px;
