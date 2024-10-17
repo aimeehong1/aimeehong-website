@@ -112,7 +112,11 @@ h3 {
   width: 20em;
   height: 20em;
   justify-self: center;
-  padding: 10px;
+  padding: 5px;
+}
+
+.contact {
+  justify-self: start;
 }
 
 .about {
