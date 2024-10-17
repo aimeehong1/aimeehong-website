@@ -32,6 +32,7 @@ figcaption {
   grid-template-rows: auto;
   margin: 1em;
   grid-gap: 1em;
+/*   align-items: flex-start */
 }
 
 .box-profile,
@@ -42,7 +43,7 @@ figcaption {
   flex-direction: column;
   padding: 25px;
 /*   margin: 1em; */
-  background: #ede8ef;
+  background: #f3f1f3;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -94,7 +95,13 @@ body {
 
 h1 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .box-profile {
