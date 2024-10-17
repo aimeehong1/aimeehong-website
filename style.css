@@ -41,7 +41,6 @@ figcaption {
   display: flex;
   flex-direction: column;
   padding: 25px;
-  /*   margin: 1em; */
   background: #eef4f6;
   text-align: center;
   justify-content: center;
@@ -151,4 +150,9 @@ td {
 
 .projects ul {
   list-style-type: none;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: auto;
 }
