@@ -29,8 +29,6 @@ figcaption {
   grid-template-columns: auto auto;
   margin: 1em;
   grid-gap: 1em;
-  align-self: center;
-  justify-self: center;
 }
 
 .box-profile,
@@ -43,6 +41,8 @@ figcaption {
   margin: 1em;
   background: #272525;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -82,13 +82,9 @@ body {
   color: #ffffff;
 }
 
-.box-profile {
-  /*   background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783"); */
-}
-
 .box-profile img {
-  width: 10em;
-  height: 10em;
+  width: 20em;
+  height: 20em;
   justify-self: center;
 }
 
