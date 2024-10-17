@@ -41,7 +41,7 @@ figcaption {
   flex-direction: column;
   padding: 25px;
   margin: 1em;
-  /*   background: #ffffff; */
+  background: #2f2d2d;
   text-align: center;
 }
 
@@ -71,18 +71,19 @@ body {
 }
 
 .box-profile {
-/*   background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783"); */
+  /*   background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783"); */
 }
 
 .box-profile img {
   width: 10em;
   height: 10em;
-  
+  justify-self: center;
 }
 
 a:link {
   color: #51279b;
   font-weight: 550;
+  text-decoration: none;
 }
 a:visited {
   color: #51279b;
