@@ -43,7 +43,7 @@ figcaption {
   flex-direction: column;
   padding: 25px;
 /*   margin: 1em; */
-  background: #f3f1f3;
+  background: #fff9fc;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -51,15 +51,15 @@ figcaption {
 }
 
 a:link {
-  color: #8662c7;
+  color: #c69fb5;
   font-weight: 550;
   text-decoration: none;
 }
 a:visited {
-  color: #8662c7;
+  color: #c69fb5;
 }
 a:hover {
-  color: #51279b;
+  color: #c877a5;
 }
 
 nav {
@@ -125,6 +125,8 @@ h3 {
 
 .news {
   align-items: top;
+  margin: 0px;
+  padding: 0px;
 }
 
 th, td {
