@@ -50,12 +50,12 @@ figcaption {
 }
 
 a:link {
-  color: #5ac2de;
+  color: #1688a6;
   font-weight: 550;
   text-decoration: none;
 }
 a:visited {
-  color: #5ac2de;
+  color: #1688a6;
 }
 a:hover {
   color: #27768b;
@@ -115,7 +115,7 @@ h3 {
 }
 
 .contact {
-  justify-self: start;
+  justify-items: end;
 }
 
 .about {
