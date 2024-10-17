@@ -156,3 +156,7 @@ td {
   display: grid;
   grid-template-columns: auto auto;
 }
+
+#project1 {
+  justify-self: center;
+}
