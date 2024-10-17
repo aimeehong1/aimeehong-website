@@ -32,7 +32,7 @@ figcaption {
 }
 
 .box-profile,
-.bio,
+.about,
 .news,
 .projects {
   display: flex;
@@ -57,15 +57,9 @@ nav ul {
 }
 
 nav ul li {
-  /*   margin-top: 50px; */
-  padding: 25px 40px;
+  padding: 10px 40px;
   font-weight: bold;
   display: inline-block;
-}
-
-nav a:link {
-  font-weight: bold;
-  font-size: 
 }
 
 a:link {
@@ -80,6 +74,11 @@ a:hover {
   color: #8662c7;
 }
 
+nav a:link {
+  font-weight: 550;
+  font-size: large;
+}
+
 body {
   font-family: "Montserrat", "Open Sans", "Times New Roman", sans-serif;
   background-color: #000000;
@@ -87,10 +86,18 @@ body {
   color: #ffffff;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 .box-profile img {
   width: 20em;
   height: 20em;
   justify-self: center;
+}
+
+.news {
+  align-items: top; 
 }
 
 .projects ul {
