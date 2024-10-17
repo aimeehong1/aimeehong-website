@@ -92,9 +92,7 @@ body {
   justify-self: center;
 }
 
-.project ul li {
-  /*   margin-top: 50px; */
-  padding: 25px 40px;
-  font-weight: bold;
+.projects ul {
+/*   display: flex; */
   list-style-type: none;
 }
