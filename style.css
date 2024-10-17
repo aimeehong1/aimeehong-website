@@ -105,7 +105,6 @@ h3 {
 .box-profile img {
   width: 20em;
   height: 20em;
-  justify-self: center;
   padding: 10px;
 }
 
@@ -144,14 +143,18 @@ td {
   margin: 10px 0px;
 }
 
-.pproject-page {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .projects ul {
   list-style-type: none;
   align-items: start;
+}
+
+.projects p {
+  align-items: start;
+}
+
+.pproject-page {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 #project1 {
