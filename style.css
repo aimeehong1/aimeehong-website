@@ -32,7 +32,8 @@ figcaption {
 .box-profile,
 .about,
 .news,
-.projects {
+.projects,
+.project-container {
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -143,21 +144,14 @@ td {
   margin: 10px 0px;
 }
 
-.projects ul {
-  list-style-type: none;
-}
-
-.project-container {
-  display: flex;
-  flex-direction: column;
-  padding: 25px;
-  background: #eef4f6;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
+.pproject-page {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.projects ul {
+  list-style-type: none;
+  align-items: start;
 }
 
 #project1 {
