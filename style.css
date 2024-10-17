@@ -63,6 +63,11 @@ nav ul li {
   display: inline-block;
 }
 
+nav a:link {
+  font-weight: bold;
+  font-size: 
+}
+
 a:link {
   color: #51279b;
   font-weight: 550;
