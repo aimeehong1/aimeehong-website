@@ -21,11 +21,6 @@ figcaption {
   font-family: "Roboto", "Open Sans", "Times New Roman", sans-serif;
 }
 
-@media only screen and (max-width: 750px) {
-  display: grid;
-  grid-template-columns: auto;
-}
-
 .container {
   display: grid;
   grid-template-columns: 25em auto;
@@ -153,10 +148,25 @@ td {
 }
 
 .project-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background: #eef4f6;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
   display: grid;
   grid-template-columns: auto auto;
 }
 
 #project1 {
   justify-self: center;
+}
+
+
+@media only screen and (max-width: 750px) {
+  body {
+    grid-template-columns: auto;
+  }
 }
