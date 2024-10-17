@@ -54,13 +54,13 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
-  display: inline-block;
 }
 
 nav ul li {
   /*   margin-top: 50px; */
   padding: 25px 40px;
   font-weight: bold;
+  display: inline-block;
 }
 
 body {
@@ -71,8 +71,12 @@ body {
 }
 
 #box-profile {
-  background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783");
-  background-size: cover;
+/*   background-image: url("https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Copy%20of%20DSC_7339.jpeg?v=1727370356783"); */
+}
+
+#box-profile img {
+  width: 50px;
+  height: 50px;
 }
 
 a:link {
