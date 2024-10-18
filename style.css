@@ -146,6 +146,8 @@ td {
 .projects ul {
   list-style-type: none;
   align-items: start;
+  padding: 0px 1em;
+  font-size: large;
 }
 
  p .projects {
@@ -157,9 +159,10 @@ td {
   grid-template-columns: auto auto;
 }
 
-#project1 {
-  justify-self: center;
+.project1 {
+  align-items: center;
 }
+
 
 
 @media only screen and (min-width: 750px) {
