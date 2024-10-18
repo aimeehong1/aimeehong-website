@@ -143,7 +143,7 @@ td {
   margin: 10px 0px;
 }
 
-.projects ul {
+.projects ul, . {
   list-style-type: none;
   align-items: start;
   padding: 0px 1em;
