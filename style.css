@@ -166,6 +166,12 @@ table tr {
   padding: 1em;
 }
 
+.project-container img {
+  height: 20em;
+  width: 10em;
+  margin: 1em;
+}
+
 .project-page p {
   align-items: start;
   padding: 30px;
