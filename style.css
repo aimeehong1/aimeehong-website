@@ -47,6 +47,7 @@ figcaption {
 
 .project-container p, .project-container-page p {
   font-weight: 400;
+  font-size: large;
 }
 
 a:link {
@@ -167,6 +168,10 @@ table tr {
 }
 
 /*  Project pages */
+.project-container {
+  background-color: #ffffff;
+}
+
 .project-container h1 {
   font-size: 40px;
   padding: 1em;
@@ -177,6 +182,8 @@ table tr {
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
+  border-radius: 15px;
+  background: #eef4f6;
 }
 
 .project-container h3 {
