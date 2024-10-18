@@ -143,18 +143,23 @@ td {
   margin: 10px 0px;
 }
 
-.projects ul, . {
+table tr + td {
+  font-style: italics;
+}
+
+.projects ul, .project-page ul {
   list-style-type: none;
   align-items: start;
   padding: 0px 1em;
   font-size: large;
 }
 
- p .projects {
+p .project-page {
   align-items: start;
+  padding: 30px;
 }
 
-.pproject-page {
+.pproject-page ul li{
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -162,8 +167,6 @@ td {
 .project1 {
   align-items: center;
 }
-
-
 
 @media only screen and (min-width: 750px) {
   body {
