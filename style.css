@@ -83,7 +83,7 @@ nav ul li {
 
 nav a:link {
   font-size: large;
-  color: #51279b;
+  color: #1688a6;
 }
 
 body {
@@ -161,12 +161,6 @@ table tr {
   font-size: large;
 }
 
-@media only screen and (min-width: 750px) {
-  body {
-    grid-template-columns: auto;
-  }
-}
-
 /*  Project pages */
 .project-container {
   background-color: #ffffff;
@@ -214,4 +208,15 @@ table tr {
   margin: 3em;
   justify-self: center;
   align-items: center;
+}
+
+@media only screen and (max-width:769px) {
+  :root {
+    --base-font-size: 120%;
+  }
+  
+  .container {
+    grid-template-columns: 1fr;
+    margin: var(--spacing-small);
+  }
 }
