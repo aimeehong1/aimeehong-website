@@ -161,14 +161,20 @@ table tr {
 }
 
 /*  Project pages */
-p .project-page {
+.project-container h1 {
+  font-size: 40px;
+  padding: 1em;
+}
+
+.project-page p {
   align-items: start;
   padding: 30px;
 }
 
-.pproject-page ul li{
+.pproject-page ul li {
   display: grid;
   grid-template-columns: auto auto;
+  padding: 1em;
 }
 
 .project1 {
