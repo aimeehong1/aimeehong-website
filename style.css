@@ -33,7 +33,8 @@ figcaption {
 .about,
 .news,
 .projects,
-.project-container {
+.project-container,
+.project-container-page {
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -147,7 +148,8 @@ table tr {
   font-style: italic;
 }
 
-.projects ul, .project-page ul {
+.projects ul,
+.project-page ul {
   list-style-type: none;
   align-items: start;
   padding: 0px 1em;
@@ -185,7 +187,6 @@ table tr {
   margin: 1em;
   margin-bottom: 3em;
 }
-
 
 .project-page p {
   align-items: start;
