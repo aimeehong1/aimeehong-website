@@ -167,10 +167,16 @@ table tr {
 }
 
 .project-container div {
-  border: solid;
+  border: 2px solid;
+  padding: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
-  radius: 2px;
+}
+
+.project-container h3 {
+  font-size: 25px;
+  padding: 1em;
+  color: #1688a6;
 }
 
 .project-container img {
