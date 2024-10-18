@@ -143,8 +143,8 @@ td {
   margin: 10px 0px;
 }
 
-table tr + td {
-  font-style: italics;
+table tr {
+  font-style: italic;
 }
 
 .projects ul, .project-page ul {
@@ -154,6 +154,13 @@ table tr + td {
   font-size: large;
 }
 
+@media only screen and (min-width: 750px) {
+  body {
+    grid-template-columns: auto;
+  }
+}
+
+/*  Project pages */
 p .project-page {
   align-items: start;
   padding: 30px;
@@ -166,10 +173,4 @@ p .project-page {
 
 .project1 {
   align-items: center;
-}
-
-@media only screen and (min-width: 750px) {
-  body {
-    grid-template-columns: auto;
-  }
 }
