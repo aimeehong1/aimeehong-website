@@ -45,6 +45,10 @@ figcaption {
   border-radius: 20px;
 }
 
+.project-container p, .project-container-page p {
+  font-weight: 400;
+}
+
 a:link {
   color: #1688a6;
   font-weight: 550;
@@ -188,17 +192,13 @@ table tr {
   margin-bottom: 3em;
 }
 
-.project-page p {
-  align-items: start;
-  padding: 30px;
+.project-container-page h1 {
+  margin: 1em;
+  color: #1688a6;
 }
 
-.pproject-page ul li {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 1em;
-}
-
-.project1 {
-  align-items: center;
+.project-container-page video {
+  width: 25em;
+  height: 45em;
+  margin: 5em;
 }
