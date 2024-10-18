@@ -165,6 +165,7 @@ table tr {
 /*  Project pages */
 .project-container {
   background-color: #ffffff;
+  grid-template-columns: 1fr 1fr;
 }
 
 .project-container h1 {
