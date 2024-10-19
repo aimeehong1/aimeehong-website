@@ -43,6 +43,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  border: solid;
 }
 
 .project-container p,
@@ -113,6 +114,7 @@ h3 {
   width: 20em;
   height: 20em;
   padding: 10px;
+  border: none;
 }
 
 .contact {
@@ -129,6 +131,15 @@ h3 {
   width: 1em;
   padding: 0px;
   margin: 0px;
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.contact .icon:hover {
+  color: #ffffff;
+  transform: rotateY(360deg);
 }
 
 .about {
@@ -160,6 +171,10 @@ table tr {
   align-items: start;
   padding: 0px 1em;
   font-size: large;
+}
+
+.projects a {
+  border: none;
 }
 
 /*  Project pages */
