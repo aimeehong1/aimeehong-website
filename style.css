@@ -64,6 +64,10 @@ a:hover {
   color: #27768b;
 }
 
+.projects a {
+  border: none;
+}
+
 nav {
   background-color: #000000;
   flex-wrap: wrap;
@@ -177,10 +181,6 @@ table tr {
   font-size: large;
 }
 
-.projects a {
-  border: none;
-}
-
 /*  Project pages */
 .project-container {
   background-color: #ffffff;
@@ -267,9 +267,12 @@ table tr {
   .projects {
     grid-gap: 0px;
     margin: 0px 0px 10px 0px;
+    border: none;
+    border-radius: 0px;
   }
   
   div {
     margin: 0px;
+
   }
 }
