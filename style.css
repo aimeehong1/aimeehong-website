@@ -185,6 +185,7 @@ table tr {
 .project-container {
   background-color: #ffffff;
   grid-template-columns: 1fr 1fr;
+  border: none;
 }
 
 .project-container h1 {
