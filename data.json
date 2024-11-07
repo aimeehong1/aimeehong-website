@@ -1,5 +1,5 @@
 {
-  "about": {
+  "profile": {
     "name": "Aimee Hong",
     "title": "",
     "photo": "assets/profile.png",
@@ -26,6 +26,16 @@
       "title": "Ended summer research position as an undergraduate economics research fellow",
       "date": "Aug, 2024"
     }
+  ],
+  profile": [
+    "name": "Aimee Hong",
+    "title": "",
+    "photo": "assets/profile.png",
+    "university": "Boston College",
+    "phone": "(224)595-4729",
+    "email": "aimee.hong@bc.edu",
+    "url": "",
+    "bio": ""
   ],
   "Projects": [
     {
@@ -67,9 +77,9 @@
       ]
     },
     {
-      "id": "wordgarden",
-      "title": "Word Garden",
-      "description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
+      "id": "mathtutor",
+      "title": "Math Tutor",
+      "description": "A basic math app that utilizes emojis and sound effects to help younger demographics grasp addition, subtraction, multiplication, and division.",
       "materials": [
         {
           "label": "Paper",
