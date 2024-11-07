@@ -235,6 +235,11 @@ table tr {
   user-select: none;
 }
 
+.project-container-page {
+  border-radius: 0px;
+  border: none;
+}
+
 .project-container-page h1 {
   margin: 1em;
   color: #1688a6;
