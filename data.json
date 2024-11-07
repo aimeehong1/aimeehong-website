@@ -1,0 +1,90 @@
+{
+  "about": {
+    "name": "Aimee Hong",
+    "title": "",
+    "photo": "assets/profile.png",
+    "university": "Boston College",
+    "phone": "(224)595-4729",
+    "email": "aimee.hong@bc.edu",
+    "url": "",
+    "bio": ""
+  },
+  "news": [
+    {
+      "title": "Finished localizing Kindros's financial literacy website",
+      "date": "Sept, 2024"
+    },
+    {
+      "title": "Created first SwiftUI app",
+      "date": "Aug, 2024"
+    },
+    {
+      "title": "Began machine learning and AI project with MathWorks",
+      "date": "Aug, 2024"
+    },
+    {
+      "title": "Ended summer research position as an undergraduate economics research fellow",
+      "date": "Aug, 2024"
+    }
+  ],
+  "Projects": [
+    {
+      "id": "todolist",
+      "title": "To Do List",
+      "description": "A full-stack To-Do List iOS app that can create, read, update, and delete entries. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
+      "materials": [
+        {
+          "label": "Paper",
+          "path": ""
+        },
+        {
+          "label": "Photo",
+          "path": ""
+        },
+        {
+          "label": "Video",
+          "path": ""
+        }
+      ]
+    },
+    {
+      "id": "wordgarden",
+      "title": "Word Garden",
+      "description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
+      "materials": [
+        {
+          "label": "Paper",
+          "path": ""
+        },
+        {
+          "label": "Photo",
+          "path": ""
+        },
+        {
+          "label": "Video",
+          "path": ""
+        }
+      ]
+    },
+    {
+      "id": "wordgarden",
+      "title": "Word Garden",
+      "description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
+      "materials": [
+        {
+          "label": "Paper",
+          "path": ""
+        },
+        {
+          "label": "Photo",
+          "path": ""
+        },
+        {
+          "label": "Video",
+          "path": ""
+        }
+      ]
+    }
+  ]
+}
+
