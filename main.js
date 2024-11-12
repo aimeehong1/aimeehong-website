@@ -31,7 +31,8 @@ function renderMainPage(data) {
 }
 
 function renderProfile(profile) {
-  return  `<section class="box-profile">
+  return  `<div>
+  <section class="box-profile">
           <img
             class="box-profile"
             src="${profile.photo}"
