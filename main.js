@@ -4,9 +4,7 @@ fetch("data.json")
     console.log(data);
 
     renderNav();
-    const main = document.querySelector("main");
-    main.innerHTML = renderProfile(data.profile);
-    main.innerHTML += renderAbout(data.about);
+    renderMainPage(data);
   });
 
 function renderNav() {
@@ -24,10 +22,53 @@ function renderNav() {
         </ul>`;
 }
 
-function renderProfile(profile) {
+function renderMainPage(data) {
+  const main = document.querySelector("main");
+  main.innerHTML = renderAbout(data.about);
+  main.innerHTML += renderNews(data.news);
+  // main.innerHTML += renderProjects(data.projects);
+}
+
+function renderProfile(profile) {}
+
+function renderNews(news) {
+  return `<section class="news">
+          <h3>News</h3>
+          <table>
+            ${}
+          </table>
+        </section>` 
+}
+
+function renderOnenews(news) { 
   
 }
 
 function renderAbout(about) {
-  
+  return `<section class="about">
+          <h3>About</h3>
+          <p>
+            ${about.bio}
+          </p>
+        </section>`;
 }
+
+// function renderProjects(projects) {
+//   return `
+//   <section id="projects">
+//     <h2 class="title">Projects</h2>
+//       <div>
+//         <ul>
+//           ${projects.map((p) => renderProject(p)).join("")}
+//         </ul>
+//       </div>
+//   </section>`;
+// }
+
+// function renderProject(project) {
+//   return `
+//   <li>
+//     <strong><a href="?project=${project.id}">${project.title}</a></strong>
+//     <p>${project.description}</p>
+//   </li>`;
+// }
