@@ -100,7 +100,8 @@ function renderNews(news) {
           <table>
             ${news.map((n) => renderOnenews(n)).join("")}
           </table>
-        </section>` 
+        </section> 
+      </div>`
 }
 
 function renderOnenews(news) { 
