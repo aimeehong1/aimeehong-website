@@ -3,10 +3,11 @@
     "name": "Aimee Hong",
     "photo": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/aimee.jpeg?v=1727370356783",
     "university": "Boston College",
+    "address": "Chestnut Hill, MA 02467",
     "phone": "(224)595-4729",
     "email": "aimee.hong@bc.edu",
-    "github": "",
-    "linkedin": ""
+    "github": "https://github.com/aimeehong1",
+    "linkedin": "https://www.linkedin.com/in/aimeehong/"
   },
   "news": [
     {
@@ -36,16 +37,12 @@
       "description": "A full-stack To-Do List iOS app that can create, read, update, and delete entries. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
       "materials": [
         {
-          "label": "Paper",
-          "path": ""
-        },
-        {
           "label": "Photo",
-          "path": ""
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List.png?v=1729196248254"
         },
         {
           "label": "Video",
-          "path": ""
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
         }
       ]
     },
@@ -55,16 +52,12 @@
       "description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
       "materials": [
         {
-          "label": "Paper",
-          "path": ""
-        },
-        {
           "label": "Photo",
-          "path": ""
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Word%20Garden.png?v=1729232543046"
         },
         {
           "label": "Video",
-          "path": ""
+          "path": "https://cdn.glitch.me/62b052fc-bbde-40a8-a326-98567fcd681a/Word%20Garden.mov?v=1729234685622"
         }
       ]
     },
@@ -74,16 +67,12 @@
       "description": "A basic math app that utilizes emojis and sound effects to help younger demographics grasp addition, subtraction, multiplication, and division.",
       "materials": [
         {
-          "label": "Paper",
-          "path": ""
-        },
-        {
           "label": "Photo",
-          "path": ""
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Math.png?v=1729229258146"
         },
         {
           "label": "Video",
-          "path": ""
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Math%20Tutor.mov?v=1729229148748"
         }
       ]
     }
