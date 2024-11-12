@@ -5,8 +5,7 @@ fetch("data.json")
 
     renderNav();
     const main = document.querySelector("main");
-
-    main.innerHTML += renderProfile(data.profile);
+    main.innerHTML = renderProfile(data.profile);
     main.innerHTML += renderAbout(data.about);
   });
 
