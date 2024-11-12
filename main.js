@@ -1,13 +1,13 @@
 fetch("data.json")
-  .then((r) => r.json())
+  .then((response) => response.json())
   .then((data) => {
     console.log(data);
 
     renderNav();
     const main = document.querySelector("main");
-    main.innerHTML = renderNav();
-    main.innerHTML = renderProfile(data.profile);
-    main.innerHTML = renderABout(data.about);
+
+    main.innerHTML += renderProfile(data.profile);
+    main.innerHTML += renderAbout(data.about);
   });
 
 function renderNav() {
