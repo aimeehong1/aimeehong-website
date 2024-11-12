@@ -5,14 +5,15 @@ fetch("data.json")
 
     renderNav();
     const main = document.querySelector("main");
-    // main.innerHTML = renderProfile(data.about);
+    main.innerHTML = renderNav();
+    main.innerHTML = renderProfile(data.profile);
+    main.innerHTML = renderABout(data.about);
   });
 
 function renderNav() {
   const nav = document.querySelector("nav");
   console.log(nav);
-  nav.innerHTML = `<nav>
-        <ul>
+  nav.innerHTML = `<ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li>
@@ -21,10 +22,13 @@ function renderNav() {
               >Resume</a
             >
           </li>
-        </ul>
-      </nav>`;
+        </ul>`;
 }
 
-// function renderProfile(about) {
+function renderProfile(profile) {
+  
+}
 
-// }
+function renderAbout(about) {
+  
+}
