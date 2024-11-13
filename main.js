@@ -12,8 +12,8 @@ fetch("data.json")
       renderMainPage(data);
     } else {
       if (projectId == "projects") {
-        renderNav()
-        renderProjectPage(data)
+        renderNav();
+        renderProjectPage(data);
       } else {
         renderNav();
         const p = data.projects.find((p) => p.id == projectId);
@@ -40,8 +40,9 @@ function renderNav() {
 function renderMainPage(data) {
   const main = document.querySelector("main");
   main.innerHTML = renderProfile(data.profile);
-  main.innerHTML += renderAbout(data.about);
   main.innerHTML += renderNews(data.news);
+  main.innerHTML += renderAbout(data.about);
+
   main.innerHTML += renderProjects(data.projects);
 }
 
@@ -63,7 +64,8 @@ function renderProfile(profile) {
               ${profile.contact.map((c) => renderContact(c)).join("")}
             </ul>
           </div>
-        </section>`;
+        </section>
+        ${}`;
 }
 
 function renderContact(contact) {
@@ -75,8 +77,7 @@ function renderContact(contact) {
                     src="${contact.icon_src}"
                     alt=${contact.name + "logo"}
                   />
-                  ${contact.value}</a
-                >
+                  ${contact.value}</a>
               </li>`;
 }
 
@@ -125,7 +126,6 @@ function renderProject(project) {
 
 // for project list page
 function renderProjectPage(data) {
-  
   const main = document.querySelector("main");
   console.log(main);
   main.innerHTML = `<section class="project-page">
