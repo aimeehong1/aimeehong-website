@@ -124,7 +124,8 @@ function renderProject(project) {
 // for project list page
 function renderProjectPage(data) {
   const main = document.querySelector("main");
-  console.log(main);
+  main.classList.remove("container");
+  main.classList.add("project-container");
   main.innerHTML = `<section class="project-page">
         <h1>Projects</h1>
         <ul>
