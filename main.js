@@ -6,18 +6,17 @@ fetch("data.json")
     const urlParams = new URLSearchParams(window.location.search);
     const projectId = urlParams.get("project");
     const page = projectId == null ? "main" : "project-detail";
-    console.log(page)
+    console.log(projectId);
     if (page === "main") {
       renderNav();
       renderMainPage(data);
-    }
-    else {
+    } else {
       if (projectId == "projects") {
-        
+        renderNav()
       } else {
-      renderNav();
-      const p = data.projects.find((p) => p.id == projectId);
-      renderProjectDetails(p);
+        renderNav();
+        const p = data.projects.find((p) => p.id == projectId);
+        renderProjectDetails(p);
       }
     }
   });
@@ -139,7 +138,8 @@ function renderProjectDetail(project) {
   return `<h1>
             <a href=${project.link}
               >${project.title}</a>
-          </h1> <p>${project.description}</p>`;
+          </h1> 
+          <p>${project.description}</p>`;
 }
 
 function renderProjectDemo(project) {
@@ -151,3 +151,14 @@ function renderProjectDemo(project) {
             Your browser does not support the video tag.
           </video>`;
 }
+
+        <div class="demonstration">
+          <video controls autoplay loop>
+            <source
+              src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section> -->
