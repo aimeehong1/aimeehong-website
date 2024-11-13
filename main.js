@@ -3,22 +3,22 @@ fetch("data.json")
   .then((data) => {
     console.log(data);
 
-    // const urlParams = new URLSearchParams(window.location.search);
-    // const projectId = urlParams.get("project");
-    // const page = projectId == null ? "main" : "project-detail";
-    // console.log(page)
-    // if (page === "main") {
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = urlParams.get("project");
+    const page = projectId == null ? "main" : "project-detail";
+    console.log(page)
+    if (page === "main") {
       renderNav();
       renderMainPage(data);
-    // }
-    //   else if (page == "projects") {
+    }
+    else if (page == "projects") {
 
-    //     }
-    // else {
-    //   renderNav();
-    //   const p = data.projects.find((p) => p.id == projectId);
-    //   renderProjectDetails(p);
-    // }
+    }
+    else {
+      renderNav();
+      const p = data.projects.find((p) => p.id == projectId);
+      renderProjectDetails(p);
+    }
   });
 
 function renderNav() {
