@@ -4,7 +4,16 @@ fetch("data.json")
     console.log(data);
 
     renderNav();
-    renderMainPage(data);
+  
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = urlParams.get("project");
+    const page = projectId == null ? "main" : "project-detetail";
+    if (page === "main") {
+      renderMainPage(data);
+    } else {
+      const p = data.projects.find((p) => p.id == projectId);
+      renderProjectDetails(p);
+    }
   });
 
 function renderNav() {
@@ -104,7 +113,10 @@ function renderProjects(projects) {
 
 function renderProject(project) {
   return `
-  <  li>
-a class="projects" href="?project=${project.id}">${project.title}</a><</li>    <p>${project.description}</p>
-  <;
+  <li><a class="projects" href="?project=${project.id}">${project.title}</a></li>
+  <p>${project.description}</p>`;
+}
+
+function renderProjectDetails(project) {
+  
 }
