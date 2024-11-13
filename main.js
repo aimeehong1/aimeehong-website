@@ -142,7 +142,7 @@ function renderProjectPageProject(project) {
   return `<div>
             <h3>${project.title}</h3>
             <p class="project-page">${project.description}</p>
-            <a class="project-page" href="project1.html">
+            <a class="project-page" href="project${project.number}.html">
               <img
                 src=${p.path}
                 alt="To Do List App"
