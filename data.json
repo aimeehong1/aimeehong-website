@@ -5,13 +5,31 @@
     "majors": "Computer Science and Economics",
     "university": "Boston College",
     "address": "Chestnut Hill, MA 02467",
-    "phone": "(224)595-4729",
+    "phone": "(224) 595-4729",
     "email": "aimee.hong@bc.edu",
     "github": "https://github.com/aimeehong1",
     "linkedin": "https://www.linkedin.com/in/aimeehong/",
-    "icons": [
+    "contact": [
       {
-        
+        "name": "phone",
+        "href": "tel:+2245954729",
+        "icon-src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/call_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192956970",
+
+      },
+      {
+        "name": "email",
+        "href": "mailto:aimee.hong@bc.edu",
+        "icon-src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192973071"
+      },
+      {
+        "name": "GitHub",
+        "href": "",
+        "icon-src": ""
+      },
+      {
+        "name": "",
+        "href": "",
+        "icon-src": ""
       }
     ]
   },

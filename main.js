@@ -43,7 +43,14 @@ function renderProfile(profile) {
           <p>${profile.university}</p>
           <p>${profile.address}</p>
           <br />
-          <div class="contact">
+          
+        
+        </section>`
+  
+}
+
+function renderContact() {
+  return `<div class="contact">
             <ul>
               <li>
                 Phone:
@@ -90,8 +97,7 @@ function renderProfile(profile) {
                 >
               </li>
             </ul>
-          </div>
-        </section>`
+          </div>`
 }
 
 function renderNews(news) {
