@@ -13,6 +13,7 @@ fetch("data.json")
     } else {
       if (projectId == "projects") {
         renderNav()
+        renderProjectPage(data)
       } else {
         renderNav();
         const p = data.projects.find((p) => p.id == projectId);
@@ -124,34 +125,33 @@ function renderProject(project) {
 
 // for project list page
 function renderProjectPage(data) {
-  <section class="project-page">
+  
+  const main = document.querySelector("main");
+  console.log(main);
+  main.innerHTML = `<section class="project-page">
         <h1>Projects</h1>
         <ul>
-          
+          ${data.projects.map((p) => renderProjectPageProject(p)).join("")}
         </ul>
-      </section>
+      </section>`;
 }
 
-function renderProjectPageProject() {
-  <div>
-            <h3>To-Do List App</h3>
-            <p class="project-page">
-              A full-stack To-Do List iOS app that can create, read, update, and
-              delete entries. You can sort entries based on their name, when
-              they were inputted, or its completion status to easily manage your
-              tasks all in one app. This app was built from scratch using Swift
-              and SwiftUI.
-            </p>
+function renderProjectPageProject(project) {
+  const p = project.materials.find((p) => p.label == "Photo");
+  console.log(p.path);
+  return `<div>
+            <h3>${project.title}</h3>
+            <p class="project-page">${project.description}</p>
             <a class="project-page" href="project1.html">
               <img
-                src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List.png?v=1729196248254"
+                src=${p.path}
                 alt="To Do List App"
             /></a>
             <p>
               <button type="button" disabled>Swift</button>
               <button type="button" disabled>Swift UI</button>
             </p>
-          </div>
+          </div>`;
 }
 
 
