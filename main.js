@@ -140,7 +140,7 @@ function renderProjectPageProject(project) {
   return `<div>
             <h3>${project.title}</h3>
             <p class="project-page">${project.description}</p>
-            <a class="project-page" href="project${project.number}.html">
+            <a class="project-page" href="?project=${project.id}">
               <img
                 src=${p.path}
                 alt="To Do List App"
@@ -155,6 +155,8 @@ function renderProjectPageProject(project) {
 // for individual project pages
 function renderProjectDetails(project) {
   const main = document.querySelector("main");
+  main.classList.remove("container");
+  main.classList.remove("project-container");
   main.innerHTML = `<section class="project-container-page">
           <div class="project-about"> 
             ${renderProjectDetail(project)}
