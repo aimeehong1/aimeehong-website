@@ -123,33 +123,29 @@ function renderProject(project) {
 
 function renderProjectDetails(project) {
   const main = document.querySelector("main");
-  main.innerHTML = renderProject(project);
+  main.innerHTML = `<section class="project-container-page">
+          <div class="project-about"> 
+            ${renderProject(project)}
+          </div>
+          <div class="demonstration">
+            
+          </div>
+        </section>`;
 }
 
-function renderProjec
+function renderProjectDetail(project) {
+  return `<h1>
+            <a href=${project.link}
+              >${project.title}</a>
+          </h1> <p>${project.description}</p>`;
+}
 
- <section class="project-container-page">
-        <div class="project-about">
-          <h1>
-            <a href="https://github.com/aimeehong1/ToDoList"
-              >To-Do List iOS App</a
-            >
-          </h1>
-          <p class="project1">
-            A full-stack To-Do List iOS app that can create, read, update, and
-            delete entries. You can sort entries based on their name, when they
-            were inputted, or its completion status to easily manage your tasks
-            all in one app. This app was built from scratch using Swift and
-            SwiftUI.
-          </p>
-        </div>
-        <div class="demonstration">
-          <video controls autoplay loop>
+renderProjectDemonstration(project) {
+  return `<video controls autoplay loop>
             <source
-              src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
+              src=${project.material.}
               type="video/mp4"
             />
             Your browser does not support the video tag.
-          </video>
-        </div>
-      </section>
+          </video>`;
+}
