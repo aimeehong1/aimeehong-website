@@ -3,21 +3,22 @@ fetch("data.json")
   .then((data) => {
     console.log(data);
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const projectId = urlParams.get("project");
-    const page = projectId == null ? "main" : "project-detail";
-    if (page === "main") {
+    // const urlParams = new URLSearchParams(window.location.search);
+    // const projectId = urlParams.get("project");
+    // const page = projectId == null ? "main" : "project-detail";
+    // console.log(page)
+    // if (page === "main") {
       renderNav();
       renderMainPage(data);
-    }
+    // }
     //   else if (page == "projects") {
 
     //     }
-    else {
-      renderNav();
-      const p = data.projects.find((p) => p.id == projectId);
-      renderProjectDetails(p);
-    }
+    // else {
+    //   renderNav();
+    //   const p = data.projects.find((p) => p.id == projectId);
+    //   renderProjectDetails(p);
+    // }
   });
 
 function renderNav() {
@@ -125,10 +126,10 @@ function renderProjectDetails(project) {
   const main = document.querySelector("main");
   main.innerHTML = `<section class="project-container-page">
           <div class="project-about"> 
-            ${renderProject(project)}
+            ${renderProjectDetail(project)}
           </div>
           <div class="demonstration">
-            
+            ${renderProjectDemo(project)}
           </div>
         </section>`;
 }
@@ -140,10 +141,10 @@ function renderProjectDetail(project) {
           </h1> <p>${project.description}</p>`;
 }
 
-renderProjectDemonstration(project) {
+function renderProjectDemo(project) {
   return `<video controls autoplay loop>
             <source
-              src=${project.material.}
+              src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
               type="video/mp4"
             />
             Your browser does not support the video tag.
