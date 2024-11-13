@@ -39,33 +39,30 @@ function renderNav() {
 
 function renderMainPage(data) {
   const main = document.querySelector("main");
-  main.innerHTML = renderProfile(data.profile);
-  main.innerHTML += renderNews(data.news);
-  main.innerHTML += renderAbout(data.about);
-
-  main.innerHTML += renderProjects(data.projects);
+  main.innerHTML = renderProfile(data);
+  main.innerHTML += renderAbout(data);
 }
 
-function renderProfile(profile) {
+function renderProfile(data) {
   return `<div>
   <section class="profile">
           <img
             class="profile"
-            src="${profile.photo}"
+            src="${data.profile.photo}"
             alt="Profile Image of Aimee Hong"
           />
-          <h1>${profile.name}</h1>
-          <h3>${profile.majors}</h3>
-          <p>${profile.university}</p>
-          <p>${profile.address}</p>
+          <h1>${data.profile.name}</h1>
+          <h3>${data.profile.majors}</h3>
+          <p>${data.profile.university}</p>
+          <p>${data.profile.address}</p>
           <br />
           <div class="contact">
             <ul>
-              ${profile.contact.map((c) => renderContact(c)).join("")}
+              ${data.profile.contact.map((c) => renderContact(c)).join("")}
             </ul>
           </div>
         </section>
-        ${}`;
+        ${renderNews(data.news)}</div>`;
 }
 
 function renderContact(contact) {
@@ -87,8 +84,7 @@ function renderNews(news) {
           <table>
             ${news.map((n) => renderOnenews(n)).join("")}
           </table>
-        </section> 
-      </div>`;
+        </section>`;
 }
 
 function renderOnenews(news) {
@@ -98,14 +94,16 @@ function renderOnenews(news) {
           </tr>`;
 }
 
-function renderAbout(about) {
+function renderAbout(data) {
   return `<div>
     <section class="about">
           <h3>About</h3>
           <p>
-            ${about.bio}
+            ${data.about.bio}
           </p>
-        </section>`;
+        </section>
+        ${renderProjects(data.projects)}
+        </div>`;
 }
 function renderProjects(projects) {
   return `
@@ -114,8 +112,7 @@ function renderProjects(projects) {
           <ul>
             ${projects.map((p) => renderProject(p)).join("")}
           </ul>
-        </section>
-      </div>`;
+        </section>`;
 }
 
 function renderProject(project) {
