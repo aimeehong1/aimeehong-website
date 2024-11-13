@@ -43,57 +43,22 @@ function renderProfile(profile) {
           <p>${profile.university}</p>
           <p>${profile.address}</p>
           <br />
-          
-        
+          ${profile.contact.map((c) => renderContact(c)).join("")}
         </section>`
-  
 }
 
-function renderContact() {
+function renderContact(contact) {
   return `<div class="contact">
             <ul>
               <li>
-                Phone:
-                <a href=${profile.phone}
+                ${contact.name}
+                <a href=${contact.href}
                   ><img
                     class="icon"
-                    src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/call_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192956970"
-                    alt="phone logo"
+                    src="${contact.icon_src}"
+                    alt=${contact.name + "logo"}
                   />
-                  (224) 595-4729</a
-                >
-              </li>
-              <li>
-                Email:
-                <a href="mailto:aimee.hong@bc.edu"
-                  ><img
-                    class="icon"
-                    src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192973071"
-                    alt="mail logo"
-                  />
-                  aimee.hong@bc.edu</a
-                >
-              </li>
-              <li>
-                GitHub:
-                <a href="https://github.com/aimeehong1"
-                  ><img
-                    class="icon"
-                    src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/github.svg?v=1729193148113"
-                    alt="GitHub icon"
-                  />
-                  github.com/aimeehong1</a
-                >
-              </li>
-              <li>
-                LinkedIn:
-                <a href="https://www.linkedin.com/in/aimeehong/"
-                  ><img
-                    class="icon"
-                    src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/icons8-linkedin.svg?v=1729193209384"
-                    alt="LinkedIn Logo"
-                  />
-                  linkedin.com/in/aimeehong/</a
+                  ${contact.value}</a
                 >
               </li>
             </ul>

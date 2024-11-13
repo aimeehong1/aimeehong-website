@@ -11,25 +11,28 @@
     "linkedin": "https://www.linkedin.com/in/aimeehong/",
     "contact": [
       {
-        "name": "phone",
+        "name": "Phone",
         "href": "tel:+2245954729",
-        "icon-src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/call_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192956970",
-
+        "icon_src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/call_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192956970",
+        "value": "(224) 595-4729"
       },
       {
-        "name": "email",
+        "name": "Email",
         "href": "mailto:aimee.hong@bc.edu",
-        "icon-src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192973071"
+        "icon_src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg?v=1729192973071",
+        "value": "aimee.hong@bc.edu"
       },
       {
         "name": "GitHub",
-        "href": "",
-        "icon-src": ""
+        "href": "https://github.com/aimeehong1",
+        "icon_src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/github.svg?v=1729193148113",
+        "value": "github.com/aimeehong1"
       },
       {
-        "name": "",
-        "href": "",
-        "icon-src": ""
+        "name": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aimeehong/",
+        "icon_src": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/icons8-linkedin.svg?v=1729193209384",
+        "value": "linkedin.com/in/aimeehong/"
       }
     ]
   },
