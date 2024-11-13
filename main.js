@@ -3,14 +3,18 @@ fetch("data.json")
   .then((data) => {
     console.log(data);
 
-    renderNav();
-  
     const urlParams = new URLSearchParams(window.location.search);
     const projectId = urlParams.get("project");
-    const page = projectId == null ? "main" : "project-detetail";
+    const page = projectId == null ? "main" : "project-detail";
     if (page === "main") {
+      renderNav();
       renderMainPage(data);
-    } else {
+    }
+    //   else if (page == "projects") {
+
+    //     }
+    else {
+      renderNav();
       const p = data.projects.find((p) => p.id == projectId);
       renderProjectDetails(p);
     }
@@ -40,7 +44,7 @@ function renderMainPage(data) {
 }
 
 function renderProfile(profile) {
-  return  `<div>
+  return `<div>
   <section class="profile">
           <img
             class="profile"
@@ -57,7 +61,7 @@ function renderProfile(profile) {
               ${profile.contact.map((c) => renderContact(c)).join("")}
             </ul>
           </div>
-        </section>`
+        </section>`;
 }
 
 function renderContact(contact) {
@@ -71,7 +75,7 @@ function renderContact(contact) {
                   />
                   ${contact.value}</a
                 >
-              </li>`
+              </li>`;
 }
 
 function renderNews(news) {
@@ -81,14 +85,14 @@ function renderNews(news) {
             ${news.map((n) => renderOnenews(n)).join("")}
           </table>
         </section> 
-      </div>`
+      </div>`;
 }
 
-function renderOnenews(news) { 
+function renderOnenews(news) {
   return `<tr>
               <td>${news.title}</td>
               <td>${news.date}</td>
-          </tr>`
+          </tr>`;
 }
 
 function renderAbout(about) {
@@ -118,5 +122,34 @@ function renderProject(project) {
 }
 
 function renderProjectDetails(project) {
-  
+  const main = document.querySelector("main");
+  main.innerHTML = renderProject(project);
 }
+
+function renderProjec
+
+ <section class="project-container-page">
+        <div class="project-about">
+          <h1>
+            <a href="https://github.com/aimeehong1/ToDoList"
+              >To-Do List iOS App</a
+            >
+          </h1>
+          <p class="project1">
+            A full-stack To-Do List iOS app that can create, read, update, and
+            delete entries. You can sort entries based on their name, when they
+            were inputted, or its completion status to easily manage your tasks
+            all in one app. This app was built from scratch using Swift and
+            SwiftUI.
+          </p>
+        </div>
+        <div class="demonstration">
+          <video controls autoplay loop>
+            <source
+              src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
