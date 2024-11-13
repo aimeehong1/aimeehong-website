@@ -1,6 +1,6 @@
 # Hello website!
 
-This is a website built with HTML and CSS using Glitch.
+This is a website built with HTML, CSS, and JavaScript using Glitch.
 
 ## What's in this project?
 
@@ -8,12 +8,8 @@ This is a website built with HTML and CSS using Glitch.
 
 ← `index.html`: This is the main web page of my site
 
-← `projects.html`: This is the page that displays my projects
-
-← `project1.html`: This displays my first project
-
-← `project2.html`: This displays my second project
-
-← `project3.html`: This displays my third project
-
 ← `style.css`: CSS file with styling rules for my project
+
+← `data.json`: JSON file containing the majority of the website information
+
+← `main.js`: JavaScript file to render all pages and HTML content
