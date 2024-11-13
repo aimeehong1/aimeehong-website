@@ -110,3 +110,4 @@ function renderProject(project) {
     <p>${project.description}</p>
   </li>`;
 }
+
