@@ -11,13 +11,14 @@ fetch("data.json")
       renderNav();
       renderMainPage(data);
     }
-    else if (page == "projects") {
-
-    }
     else {
+      if (projectId == "projects") {
+        
+      } else {
       renderNav();
       const p = data.projects.find((p) => p.id == projectId);
       renderProjectDetails(p);
+      }
     }
   });
 
@@ -26,7 +27,7 @@ function renderNav() {
   console.log(nav);
   nav.innerHTML = `<ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="?project=projects">Projects</a></li>
           <li>
             <a
               href="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Hong%20Technical%20Resume.pdf?v=1729235965831"
