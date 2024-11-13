@@ -122,6 +122,40 @@ function renderProject(project) {
   <p>${project.description}</p>`;
 }
 
+// for project list page
+function renderProjectPage(data) {
+  <section class="project-page">
+        <h1>Projects</h1>
+        <ul>
+          
+        </ul>
+      </section>
+}
+
+function renderProjectPageProject() {
+  <div>
+            <h3>To-Do List App</h3>
+            <p class="project-page">
+              A full-stack To-Do List iOS app that can create, read, update, and
+              delete entries. You can sort entries based on their name, when
+              they were inputted, or its completion status to easily manage your
+              tasks all in one app. This app was built from scratch using Swift
+              and SwiftUI.
+            </p>
+            <a class="project-page" href="project1.html">
+              <img
+                src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List.png?v=1729196248254"
+                alt="To Do List App"
+            /></a>
+            <p>
+              <button type="button" disabled>Swift</button>
+              <button type="button" disabled>Swift UI</button>
+            </p>
+          </div>
+}
+
+
+// for individual project pages
 function renderProjectDetails(project) {
   const main = document.querySelector("main");
   main.innerHTML = `<section class="project-container-page">
@@ -143,22 +177,13 @@ function renderProjectDetail(project) {
 }
 
 function renderProjectDemo(project) {
+  const p = project.materials.find((p) => p.label == "Video");
+
   return `<video controls autoplay loop>
             <source
-              src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
+              src=${p.path}
               type="video/mp4"
             />
             Your browser does not support the video tag.
           </video>`;
 }
-
-        <div class="demonstration">
-          <video controls autoplay loop>
-            <source
-              src="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </section> -->
