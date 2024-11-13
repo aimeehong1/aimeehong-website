@@ -110,3 +110,12 @@ function renderProject(project) {
     <p>${project.description}</p>
   </li>`;
 }
+
+ <li>
+              <a class="projects" href="project2.html">Word Garden App</a>
+            </li>
+            <p>
+              A word-guessing UI app based on hangman that gives you eight
+              guesses per word and will wilt the petals on your flower if you
+              make incorrect guesses. Complete with sounds and animations.
+            </p>
