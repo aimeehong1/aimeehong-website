@@ -154,7 +154,6 @@ function renderProjectPageProject(project) {
           </div>`;
 }
 
-
 // for individual project pages
 function renderProjectDetails(project) {
   const main = document.querySelector("main");
