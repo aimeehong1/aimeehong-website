@@ -1,4 +1,3 @@
-
 fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
@@ -82,6 +81,9 @@ function renderContact(contact) {
 function renderNews(news) {
   return `<section class="news">
           <h3>News</h3>
+          <div class="search">
+            <input type="search" name='news' placeholder="Search News...">
+          </div>
           <table>
             ${news.map((n) => renderOnenews(n)).join("")}
           </table>
