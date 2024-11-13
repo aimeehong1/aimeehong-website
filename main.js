@@ -27,14 +27,14 @@ function renderMainPage(data) {
   main.innerHTML = renderProfile(data.profile);
   main.innerHTML += renderAbout(data.about);
   main.innerHTML += renderNews(data.news);
-  // main.innerHTML += renderProjects(data.projects);
+  main.innerHTML += renderProjects(data.projects);
 }
 
 function renderProfile(profile) {
   return  `<div>
-  <section class="box-profile">
+  <section class="profile">
           <img
-            class="box-profile"
+            class="profile"
             src="${profile.photo}"
             alt="Profile Image of Aimee Hong"
           />
@@ -83,7 +83,8 @@ function renderOnenews(news) {
 }
 
 function renderAbout(about) {
-  return `<section class="about">
+  return `<div>
+    <section class="about">
           <h3>About</h3>
           <p>
             ${about.bio}
@@ -91,22 +92,21 @@ function renderAbout(about) {
         </section>`;
 }
 
-// function renderProjects(projects) {
-//   return `
-//   <section id="projects">
-//     <h2 class="title">Projects</h2>
-//       <div>
-//         <ul>
-//           ${projects.map((p) => renderProject(p)).join("")}
-//         </ul>
-//       </div>
-//   </section>`;
-// }
+function renderProjects(projects) {
+  return `
+  <section class="projects">
+          <h3>Projects</h3>
+          <ul>
+            ${projects.map((p) => renderProject(p)).join("")}
+          </ul>
+        </section>
+      </div>`;
+}
 
-// function renderProject(project) {
-//   return `
-//   <li>
-//     <strong><a href="?project=${project.id}">${project.title}</a></strong>
-//     <p>${project.description}</p>
-//   </li>`;
-// }
+function renderProject(project) {
+  return `
+  <li>
+    <strong><a href="?project=${project.id}">${project.title}</a></strong>
+    <p>${project.description}</p>
+  </li>`;
+}

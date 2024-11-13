@@ -29,7 +29,7 @@ figcaption {
   align-items: flex-start;
 }
 
-.box-profile,
+.profile,
 .about,
 .news,
 .projects,
@@ -109,12 +109,12 @@ h3 {
   padding: 10px;
 }
 
-.box-profile {
+.profile {
   line-height: 1.3;
   margin: 10px 0px;
 }
 
-.box-profile img {
+.profile img {
   width: 20em;
   height: 20em;
   padding: 10px;
@@ -263,7 +263,7 @@ table tr {
     margin: var(--spacing-small);
   }
 
-  .box-profile,
+  .profile,
   .about,
   .news,
   .projects {
