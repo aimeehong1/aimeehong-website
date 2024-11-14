@@ -62,6 +62,7 @@
       "id": "todolist",
       "title": "To-Do List App",
       "description": "A full-stack To-Do List iOS app that can create, read, update, and delete entries. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
+      "link": "https://github.com/aimeehong1/ToDoList",
       "materials": [
         {
           "label": "Photo",
@@ -77,7 +78,7 @@
       "id": "wordgarden",
       "title": "Word Garden App",
       "description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
-      "link": "https://github.com/aimeehong1/ToDoList",
+      "link": "https://github.com/aimeehong1/WordGarden-SwiftUI",
       "materials": [
         {
           "label": "Photo",
@@ -93,7 +94,7 @@
       "id": "mathtutor",
       "title": "Math Tutor App",
       "description": "A basic math app that utilizes emojis and sound effects to help younger demographics grasp addition, subtraction, multiplication, and division.",
-      "link": "https://github.com/aimeehong1/",
+      "link": "https://github.com/aimeehong1/Math-Tutor",
       "materials": [
         {
           "label": "Photo",

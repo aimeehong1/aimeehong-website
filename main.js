@@ -167,6 +167,7 @@ function renderProjectDetails(project) {
           <div class="demonstration">
             ${renderProjectDemo(project)}
           </div>
+          <button type="button">GitHub<a href=${project.link}></a></button>
         </section>`;
 }
 

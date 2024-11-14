@@ -229,7 +229,7 @@ table tr {
   transform: scale(1.1);
 }
 
-.project-container button {
+.project-container button, .project-container-page button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
