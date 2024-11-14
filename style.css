@@ -229,7 +229,7 @@ table tr {
   transform: scale(1.1);
 }
 
-.project-container button, .project-container-page button {
+.project-container button, .project-container-page input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -245,6 +245,11 @@ table tr {
   user-select: none;
 }
 
+.project-container-page input:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .project-container-page {
   border-radius: 0px;
   border: none;
@@ -258,7 +263,7 @@ table tr {
 .project-container-page video {
   width: 20em;
   height: 40em;
-  margin: 3em;
+  margin: 2em;
   justify-self: center;
   align-items: center;
 }

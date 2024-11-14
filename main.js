@@ -167,14 +167,15 @@ function renderProjectDetails(project) {
           <div class="demonstration">
             ${renderProjectDemo(project)}
           </div>
-          <button type="button">GitHub<a href=${project.link}></a></button>
+          <form action=${project.link}>
+            <input type="submit" value="GitHub Repo" />
+          </form>
         </section>`;
 }
 
 function renderProjectDetail(project) {
   return `<h1>
-            <a href=${project.link}
-              >${project.title}</a>
+            ${project.title}
           </h1> 
           <p>${project.description}</p>`;
 }
