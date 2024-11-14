@@ -43,24 +43,24 @@ function renderMainPage(data) {
   main.innerHTML += renderAbout(data);
 
   const search = document.querySelector(".search");
-    console.log(search);
-    search.addEventListener("input", (e) => {
-      console.log(e.currentTarget);
-      console.log(e.target);
-      console.log(e.target.value);
-      const value = e.target.value;
+  console.log(search);
+  search.addEventListener("input", (e) => {
+    console.log(e.currentTarget);
+    console.log(e.target);
+    console.log(e.target.value);
+    const value = e.target.value;
 
-      const filtered = data.news.filter((newsitem) =>
-        newsitem.title.toLowerCase().includes(value.toLowerCase())
-      );
+    const filtered = data.news.filter((newsitem) =>
+      newsitem.title.toLowerCase().includes(value.toLowerCase())
+    );
 
-      console.log("filtered=", filtered);
+    console.log("filtered=", filtered);
 
-      const list = document.querySelctor(".newslist");
-      console.log(list);
-      list.innerHTML = filtered.map((newsitem) =>
-        renderOnenews(newsitem)).join("");
-    });
+    const list = document.querySelctor(".newslist");
+    console.log(list);
+    list.innerHTML = filtered.map((newsitem) =>
+      renderOnenews(newsitem)).join("");
+  });
 }
 
 function renderProfile(data) {
