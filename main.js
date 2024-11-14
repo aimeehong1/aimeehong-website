@@ -51,7 +51,7 @@ function renderMainPage(data) {
       const value = e.target.value;
 
       const filtered = data.news.filter((newsitem) =>
-        newsitem.title.includes(value)
+        newsitem.title.toLowerCase().includes(value.toLowerCase())
       );
 
       console.log("filtered=", filtered);
@@ -99,7 +99,7 @@ function renderContact(contact) {
 }
 
 function renderNews(news) {
-  return `<section class="news">
+   let parentNews = `<section class="news">
           <h3>News</h3>
           <div class="search">
             <input type="search" name='news' placeholder="Search News...">
@@ -108,6 +108,7 @@ function renderNews(news) {
             ${news.map((n) => renderOnenews(n)).join("")}
           </table>
         </section>`;
+  return parentNews
 }
 
 function renderOnenews(news) {
