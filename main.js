@@ -57,7 +57,7 @@ function renderMainPage(data) {
     console.log("filtered=", filtered);
 
     const list = document.querySelctor(".newslist");
-    console.log(list);
+    console.log("list is", list);
     list.innerHTML = filtered.map((newsitem) =>
       renderOnenews(newsitem)).join("");
   });
