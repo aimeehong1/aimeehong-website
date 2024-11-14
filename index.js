@@ -1,16 +1,3 @@
-let data = {
-  name: "Ashley",
-  gender:undefined
-};
-
-fetch(`https://genderapi.io/api/?${data.name}`)
-.then(response => response.json())
-.then(jdata=>{
-  data.gender = jdata.gender; // "Female"
-});
-
-console.log(data.gender);
-
 import renderNav from "/Nav.js"
 
 fetch("data.json")
