@@ -41,17 +41,25 @@ function renderMainPage(data) {
   const main = document.querySelector("main");
   main.innerHTML = renderProfile(data);
   main.innerHTML += renderAbout(data);
-  
-  const search = document.querySelector('.search');
+
+  const search = document.querySelector(".search");
   console.log(search);
-  search.addEventListener("input", e => {
+  search.addEventListener("input", (e) => {
     console.log(e.currentTarget);
     console.log(e.target);
     console.log(e.target.value);
   });
-  
-  const filtered = data.news.filter(newsitem => newsitem.title.includes(value));
+
+  const filtered = data.news.filter((newsitem) =>
+    newsitem.title.includes(value)
+  );
   console.log(filtered);
+
+  console.log("filtered=", filtered);
+
+  const list = document.querySelctor(".newslist");
+  console.log(list);
+  list.innerHTML = filtered.map((newsitem) => renderOnenews(newsitem)).join("");
 }
 
 function renderProfile(data) {
