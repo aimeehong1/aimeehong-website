@@ -17,7 +17,7 @@ fetch("data.json")
       } else {
         renderNav();
         const p = data.projects.find((p) => p.id == projectId);
-        renderProject(p);
+        renderProjectDetails(p);
       }
     }
   });
@@ -56,11 +56,11 @@ function renderMainPage(data) {
 
     console.log("filtered=", filtered);
 
-    const list = document.querySelctor(".newslist");
+    const list = document.querySelector(".newslist");
     console.log("list is", list);
     list.innerHTML = filtered.map((newsitem) =>
       renderOnenews(newsitem)).join("");
-  });
+   });
 }
 
 function renderProfile(data) {
