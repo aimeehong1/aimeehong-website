@@ -17,7 +17,7 @@ fetch("data.json")
       } else {
         renderNav();
         const p = data.projects.find((p) => p.id == projectId);
-        renderProjectDetails(p);
+        renderProject(p);
       }
     }
   });
@@ -104,7 +104,7 @@ function renderNews(news) {
           <div class="search">
             <input type="search" name='news' placeholder="Search News...">
           </div>
-          <table>
+          <table class="newslist">
             ${news.map((n) => renderOnenews(n)).join("")}
           </table>
         </section>`;
