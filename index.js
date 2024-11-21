@@ -1,5 +1,7 @@
-import renderNav from "/Nav.js"
-import renderMainPage from "./MainPage.js"
+import renderNav from "/Nav.js";
+import renderMainPage from "./MainPage.js";
+import renderProjectPage from "./ProjectPage.js";
+import renderProjectDetails from "./ProjectDetails.js";
 
 fetch("data.json")
   .then((response) => response.json())
@@ -14,13 +16,13 @@ fetch("data.json")
       renderNav();
       renderMainPage(data);
     } else {
-      // if (projectId == "projects") {
-      //   renderNav();
-      //   renderProjectPage(data);
-      // } else {
-      //   renderNav();
-      //   const p = data.projects.find((p) => p.id == projectId);
-      //   renderProjectDetails(p);
-      // }
+      if (projectId == "projects") {
+        renderNav();
+        renderProjectPage(data);
+      } else {
+        renderNav();
+        const p = data.projects.find((p) => p.id == projectId);
+        renderProjectDetails(p);
+      }
     }
   });

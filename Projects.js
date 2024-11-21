@@ -11,7 +11,7 @@ export default function renderProjects(projects) {
         </section>`;
 }
 
-function renderProject(project) {
+export function renderProject(project) {
   return `
   <li><a class="projects" href="?project=${project.id}">${project.title}</a></li>
   <p>${project.description}</p>`;

@@ -11,7 +11,7 @@ export default function renderNews(news) {
   return parentNews
 }
 
-function renderOnenews(news) {
+export function renderOnenews(news) {
   return `<tr>
               <td>${news.title}</td>
               <td>${news.date}</td>
