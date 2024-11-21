@@ -1,9 +1,11 @@
 import renderProfile from "./Profile.js"
+import renderAbout from "./About.js"
+import {renderOnenews} from ".News.js"
 
 export default function renderMainPage(data) {
   const main = document.querySelector("main");
   main.innerHTML = renderProfile(data);
-//   main.innerHTML += renderAbout(data);
+  main.innerHTML += renderAbout(data);
 
 //   const search = document.querySelector(".search");
 //   console.log(search);
@@ -23,5 +25,5 @@ export default function renderMainPage(data) {
 //     console.log(list);
 //     list.innerHTML = filtered.map((newsitem) =>
 //       renderOnenews(newsitem)).join("");
-//   });
+  // });
 }

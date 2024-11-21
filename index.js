@@ -1,4 +1,5 @@
 import renderNav from "/Nav.js"
+import renderMainPage from "./MainPage.js"
 
 fetch("data.json")
   .then((response) => response.json())
@@ -11,7 +12,7 @@ fetch("data.json")
     console.log(projectId);
     if (page === "main") {
       renderNav();
-      // renderMainPage(data);
+      renderMainPage(data);
     } else {
       // if (projectId == "projects") {
       //   renderNav();

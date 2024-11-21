@@ -6,7 +6,7 @@ export default function renderNav() {
           <li><a href="?project=projects">Projects</a></li>
           <li>
             <a
-              href="https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/Hong%20Technical%20Resume.pdf?v=1729235965831"
+              href="https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/Hong%20Technical%20Resume.pdf?v=1732216774852"
               >Resume</a
             >
           </li>
