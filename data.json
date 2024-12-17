@@ -63,6 +63,22 @@
   },
   "projects": [
     {
+      "id": "recipebytes-ios",
+      "title": "Recipe Bytes (iOS)",
+      "description": "A full-stack all-in-one cooking aid and food tracker. <ul><li>potato</li></ul>",
+      "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
+      "materials": [
+        {
+          "label": "Photo",
+          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/recipe.png?v=1734457153195"
+        },
+        {
+          "label": "Video",
+          "path": ""
+        }
+      ]
+    },
+    {
       "id": "weatherapp",
       "title": "Weather App",
       "description": "A weather app that displays the projected weekly weather forecast using API calls. It suppports different settings and the metric or imperial measurement systems",
@@ -70,11 +86,11 @@
       "materials": [
         {
           "label": "Photo",
-          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List.png?v=1729196248254"
+          "path": ""
         },
         {
           "label": "Video",
-          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
+          "path": ""
         }
       ]
     },
