@@ -63,9 +63,25 @@
   },
   "projects": [
     {
+      "id": "weatherapp",
+      "title": "Weather App",
+      "description": "A weather app that displays the projected weekly weather forecast using API calls. It suppports different settings and the metric or imperial measurement systems",
+      "link": "https://github.com/aimeehong1/Swifty-Weather-App",
+      "materials": [
+        {
+          "label": "Photo",
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List.png?v=1729196248254"
+        },
+        {
+          "label": "Video",
+          "path": "https://cdn.glitch.global/62b052fc-bbde-40a8-a326-98567fcd681a/To%20Do%20List%20App.mov?v=1729196955105"
+        }
+      ]
+    },
+    {
       "id": "todolist",
       "title": "To-Do List App",
-      "description": "A full-stack To-Do List iOS app that can create, read, update, and delete entries. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
+      "description": "A To-Do List iOS app that can create, read, update, and delete entries using Swift Data. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
       "link": "https://github.com/aimeehong1/ToDoList",
       "materials": [
         {
