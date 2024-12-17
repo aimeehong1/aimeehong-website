@@ -65,7 +65,8 @@
     {
       "id": "recipebytes-ios",
       "title": "Recipe Bytes (iOS)",
-      "description": "A full-stack all-in-one cooking aid and food tracker. <ul><li>potato</li></ul>",
+      "description": "A full-stack all-in-one cooking aid and food tracker.",
+      "full_description": "A full-stack all-in-one cooking aid and food tracker. <ul><li>potato</li></ul>",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
       "materials": [
         {
@@ -86,7 +87,7 @@
       "materials": [
         {
           "label": "Photo",
-          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/WeatherApp.png?v=1734458409602"
+          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/WeatherApp.png?v=1734463175608"
         },
         {
           "label": "Video",
