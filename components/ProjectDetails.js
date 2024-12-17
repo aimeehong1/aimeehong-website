@@ -24,12 +24,16 @@ export function renderProjectDetail(project) {
 
 export function renderProjectDemo(project) {
   const p = project.materials.find((p) => p.label == "Video");
-
-  return `<video controls autoplay loop>
-            <source
-              src=${p.path}
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>`;
+  if (p) {
+    return `<video controls autoplay loop>
+              <source
+                src=${p.path}
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>`;
+  }
+  else {
+    return ``
+  }
 }
