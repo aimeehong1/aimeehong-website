@@ -66,7 +66,7 @@
       "id": "recipebytes-ios",
       "title": "Recipe Bytes App",
       "description": "A full-stack all-in-one cooking aid and food tracker.",
-      "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB. <ul><li></li></ul>",
+      "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB.",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
       "tags": ["Swift", "SwiftUI", "Firebase"],
       "materials": [
@@ -83,7 +83,8 @@
     {
       "id": "weatherapp",
       "title": "Weather App",
-      "description": "A weather app that displays the projected weekly weather forecast using API calls. It suppports different settings and the metric or imperial measurement systems",
+      "description": "A weather app that displays the projected weekly weather forecast",
+      "full_description": "A weather app that displays the projected weekly weather forecast using API calls. It suppports different settings and the metric or imperial measurement systems",
       "link": "https://github.com/aimeehong1/Swifty-Weather-App",
       "tags": ["Swift", "SwiftUI"],
       "materials": [
@@ -100,7 +101,8 @@
     {
       "id": "todolist",
       "title": "To-Do List App",
-      "description": "A To-Do List iOS app that can create, read, update, and delete entries using Swift Data. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
+      "description": "A To-Do List iOS app using Swift Data.",
+      "full_description": "A To-Do List iOS app that can create, read, update, and delete entries using Swift Data. You can sort entries based on their name, when they were inputted, or its completion status to easily manage your tasks all in one app. This app was built from scratch using Swift and SwiftUI.",
       "link": "https://github.com/aimeehong1/ToDoList",
       "tags": ["Swift", "SwiftUI"],
       "materials": [
@@ -117,7 +119,8 @@
     {
       "id": "wordgarden",
       "title": "Word Garden App",
-      "description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
+      "description": "A word-guessing UI app based on hangman",
+      "full_description": "A word-guessing UI app based on hangman that gives you eight guesses per word and will wilt the petals on your flower if you make incorrect guesses. Complete with sounds and animations.",
       "link": "https://github.com/aimeehong1/WordGarden-SwiftUI",
       "tags": ["Swift", "SwiftUI"],
       "materials": [
@@ -134,7 +137,8 @@
     {
       "id": "mathtutor",
       "title": "Math Tutor App",
-      "description": "A basic math app that utilizes emojis and sound effects to help younger demographics grasp addition, subtraction, multiplication, and division.",
+      "description": "A basic math tutoring app",
+      "full_description": "A basic math app that utilizes emojis and sound effects to help younger demographics grasp addition, subtraction, multiplication, and division.",
       "link": "https://github.com/aimeehong1/Math-Tutor",
       "tags": ["Swift", "SwiftUI"],
       "materials": [

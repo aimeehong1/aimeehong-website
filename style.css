@@ -181,6 +181,10 @@ table tr {
   font-style: italic;
 }
 
+.project-page {
+  width: 100%;
+}
+
 .projects ul,
 .project-page ul {
   list-style-type: none;

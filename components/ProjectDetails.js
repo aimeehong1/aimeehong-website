@@ -19,7 +19,7 @@ export function renderProjectDetail(project) {
   return `<h1>
             ${project.title}
           </h1> 
-          <p>${project.description}</p>`;
+          <p>${project.full_description}</p>`;
 }
 
 export function renderProjectDemo(project) {
