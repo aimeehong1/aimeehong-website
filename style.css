@@ -271,6 +271,10 @@ table tr {
   color: #1688a6;
 }
 
+.project-container-page ul {
+  list-style: none;
+}
+
 .project-container-page video {
   width: 20em;
   height: 40em;
