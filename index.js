@@ -1,7 +1,7 @@
-import renderNav from "/Nav.js";
-import renderMainPage from "./MainPage.js";
-import renderProjectPage from "./ProjectPage.js";
-import renderProjectDetails from "./ProjectDetails.js";
+import renderNav from "/components/Nav.js";
+import renderMainPage from "./components/MainPage.js";
+import renderProjectPage from "./components/ProjectPage.js";
+import renderProjectDetails from "./components/ProjectDetails.js";
 
 fetch("data.json")
   .then((response) => response.json())
