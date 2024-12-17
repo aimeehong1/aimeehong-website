@@ -9,7 +9,7 @@ export default function renderProjectDetails(project) {
           <div class="demonstration">
             ${renderProjectDemo(project)}
           </div>
-          <form action=${project.link}>
+          <form target="_blank" action=${project.link}>
             <input type="submit" value="GitHub Repo" />
           </form>
         </section>`;

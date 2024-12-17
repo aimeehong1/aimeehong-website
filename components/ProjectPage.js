@@ -19,7 +19,7 @@ function renderProjectPageProject(project) {
             <a class="project-page" href="?project=${project.id}">
               <img
                 src=${p.path}
-                alt=${p.title}
+                alt=${project.id}
             /></a>
             <p>
               ${project.tags.map((t) => renderProjectTag(t)).join("")}
