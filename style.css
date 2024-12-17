@@ -189,6 +189,10 @@ table tr {
   font-size: large;
 }
 
+.project-page button {
+  margin: 3px;
+}
+
 /*  Project pages */
 .project-container {
   background-color: #ffffff;

@@ -19,12 +19,14 @@ function renderProjectPageProject(project) {
             <a class="project-page" href="?project=${project.id}">
               <img
                 src=${p.path}
-                alt="To Do List App"
+                alt=${p.title}
             /></a>
             <p>
-              ${project.map((p) => renderProjectPageProject(p)).join("")}
-              <button type="button" disabled>Swift</button>
-              <button type="button" disabled>Swift UI</button>
+              ${project.tags.map((t) => renderProjectTag(t)).join("")}
             </p>
           </div>`;
+}
+
+function renderProjectTag(tag) {
+  return `<button type="button" disabled>${tag}</button>`
 }
