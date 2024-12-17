@@ -226,7 +226,6 @@ table tr {
 
 .project-container img {
   height: 20em;
-  width: 10em;
   margin: 1em;
   margin-bottom: 3em;
   -webkit-transform: scale(1);
@@ -271,8 +270,17 @@ table tr {
   color: #1688a6;
 }
 
+.project-container-page p {
+  padding-bottom: 10px;
+}
+
 .project-container-page ul {
   list-style: none;
+  font-weight: bold; 
+}
+
+.project-container-page ul li {
+  padding: 5px;
 }
 
 .project-container-page video {
