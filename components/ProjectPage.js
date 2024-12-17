@@ -22,6 +22,7 @@ function renderProjectPageProject(project) {
                 alt="To Do List App"
             /></a>
             <p>
+              ${project.map((p) => renderProjectPageProject(p)).join("")}
               <button type="button" disabled>Swift</button>
               <button type="button" disabled>Swift UI</button>
             </p>
