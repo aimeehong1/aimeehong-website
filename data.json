@@ -66,17 +66,17 @@
       "id": "recipebytes-ios",
       "title": "Recipe Bytes App",
       "description": "A full-stack all-in-one cooking aid and food tracker.",
-      "full_description": "A full-stack all-in-one cooking aid and food tracker. <ul><li>potato</li></ul>",
+      "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB. <ul><li></li></ul>",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
-      "tags": ["Swift", "SwiftUI"],
+      "tags": ["Swift", "SwiftUI", "Firebase"],
       "materials": [
         {
           "label": "Photo",
-          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/Recipe%20Bytes.png?v=1734467362358"
+          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/Recipe%20Bytes.png?v=1734467962890"
         },
         {
           "label": "Video",
-          "path": ""
+          "path": "https://cdn.glitch.me/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytes.mp4?v=1734468198501"
         }
       ]
     },
