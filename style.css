@@ -209,7 +209,11 @@ table tr {
   padding: 1em;
 }
 
-.project-container div {
+.search input .project-container {
+  border: solid;
+}
+
+.project-container .project {
   border: 2px solid;
   padding: 1em;
   margin-top: 1em;

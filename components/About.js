@@ -8,6 +8,6 @@ export default function renderAbout(data) {
             ${data.about.bio}
           </p>
         </section>
-        ${renderProjects(data.projects)}
+        ${renderProjects(data)}
         </div>`;
 }
