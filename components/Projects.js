@@ -6,6 +6,8 @@ export default function renderProjects(projects) {
             <input type="search" name='news' placeholder="Search Projects...">
           </div>
           <ul class="projectlist">
+            ${data.projects.filter((p) => data.featured.includes(p.id)).map((p) => renderProjectPageProject(p)).join("")}
+
             ${projects.map((p) => renderProject(p)).join("")}
           </ul>
         </section>`;

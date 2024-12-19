@@ -9,7 +9,6 @@ export default function renderProjectPage(data) {
         </ul>
       </section>`;
 }
-
 function renderProjectPageProject(project) {
   const p = project.materials.find((p) => p.label == "Photo");
   console.log(p.path);
