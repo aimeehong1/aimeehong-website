@@ -83,7 +83,7 @@
     {
       "id": "recipebytes-ios",
       "title": "Recipe Bytes App",
-      "description": "A full-stack all-in-one cooking aid and food tracker.",
+      "description": "A full-stack all-in-one cooking aid and food tracker using Swift and Firebase.",
       "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB.",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
       "tags": ["Swift", "SwiftUI", "Firebase"],
@@ -101,7 +101,7 @@
     {
       "id": "weatherapp",
       "title": "Weather App",
-      "description": "A weather app that displays the projected weekly weather forecast",
+      "description": "A weather app that displays the projected weekly weather forecast through API calls",
       "full_description": "A weather app that displays the projected weekly weather forecast using API calls. It suppports different settings and the metric or imperial measurement systems",
       "link": "https://github.com/aimeehong1/Swifty-Weather-App",
       "tags": ["Swift", "SwiftUI"],

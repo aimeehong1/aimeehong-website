@@ -9,7 +9,7 @@ export default function renderProjects(data) {
 }
 
 export function renderFeaturedProject(project) {
-  const p = project.materials.find((p) => p.label == "Video");
+  const p = project.materials.find((p) => p.label == "Photo");
   let returned = `
   <li><a class="projects" href="?project=${project.id}">${project.title}</a></li>
   <p>${project.description}</p>

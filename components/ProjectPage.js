@@ -7,9 +7,9 @@ export default function renderProjectPage(data) {
   main.innerHTML = `<section class="project-page">
         <h1>Projects</h1>
         <div class="search" id="projects">
-          <input type="search" name='news' placeholder="Search Projects...">
+          <input type="search" name='projects' placeholder="Search Projects...">
         </div>
-        <ul>
+        <ul class="projectlist">
           ${data.projects.map((p) => renderProjectPageProject(p)).join("")}
         </ul>
       </section>`;

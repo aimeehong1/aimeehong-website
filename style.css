@@ -172,13 +172,19 @@ th,
 td {
   padding: 15px;
 }
+
+table tr {
+  font-style: italic;
+}
+
 .projects {
   margin: 10px 0px;
   overflow-y: auto;
 }
 
-table tr {
-  font-style: italic;
+.projects img {
+  margin-top: 5px;
+  height: 7em;
 }
 
 .project-page {
