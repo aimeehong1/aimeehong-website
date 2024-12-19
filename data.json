@@ -63,6 +63,24 @@
   },
   "projects": [
     {
+      "id": "recipebytes",
+      "title": "Recipe Bytes",
+      "description": "A full-stack cooking aid, meal recommender, and food tracker web application using React, JavaScript, HTML, CSS, and Firebase.",
+      "full_description": "A full-stack cooking aid, meal recommender, and food tracker web application. The full-tech stack includes React, JavaScript, HTML, CSS, Firebase, Material UI, and the Spoonacular API. The walkthrough video is narrated by <a href='https://github.com/LindaZhang23' target='_blank' rel='noopener noreferrer'> Linda Zhang</a>",
+      "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
+      "tags": ["HTML", "CSS", "React", "JavaSCript", "Firebase"],
+      "materials": [
+        {
+          "label": "Photo",
+          "path": ""
+        },
+        {
+          "label": "Video",
+          "path": "https://cdn.glitch.me/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytes.mov?v=1734640654732"
+        }
+      ]
+    },
+    {
       "id": "recipebytes-ios",
       "title": "Recipe Bytes App",
       "description": "A full-stack all-in-one cooking aid and food tracker using Swift and Firebase.",
@@ -76,7 +94,7 @@
         },
         {
           "label": "Video",
-          "path": "https://cdn.glitch.me/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytes.mp4?v=1734468198501"
+          "path": "https://cdn.glitch.me/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytesiOS.mp4?v=1734468198501"
         }
       ]
     },
@@ -95,24 +113,6 @@
         {
           "label": "",
           "path": ""
-        }
-      ]
-    },
-    {
-      "id": "recipebytes",
-      "title": "Recipe Bytes",
-      "description": "A full-stack cooking aid,  and Firebase.",
-      "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB.",
-      "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
-      "tags": ["Swift", "SwiftUI", "Firebase"],
-      "materials": [
-        {
-          "label": "Photo",
-          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/Recipe%20Bytes.png?v=1734467962890"
-        },
-        {
-          "label": "Video",
-          "path": "https://cdn.glitch.me/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytes.mp4?v=1734468198501"
         }
       ]
     },
@@ -189,5 +189,5 @@
       ]
     }
   ],
-  "featured": ["motorcontrol", "weatherapp", "recipebytes-ios"]
+  "featured": ["recipebytes-ios", "motorcontrol", "recipeBytes"]
 }
