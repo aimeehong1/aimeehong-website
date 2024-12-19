@@ -67,12 +67,12 @@
       "title": "Recipe Bytes",
       "description": "A full-stack cooking aid, meal recommender, and food tracker web application using React, JavaScript, HTML, CSS, and Firebase.",
       "full_description": "A full-stack cooking aid, meal recommender, and food tracker web application. The full-tech stack includes React, JavaScript, HTML, CSS, Firebase, Material UI, and the Spoonacular API. The walkthrough video is narrated by <a href='https://github.com/LindaZhang23' target='_blank' rel='noopener noreferrer'> Linda Zhang</a>",
-      "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
+      "link": "https://github.com/sigetg/RecipeBytes",
       "tags": ["HTML", "CSS", "React", "JavaSCript", "Firebase"],
       "materials": [
         {
           "label": "Photo",
-          "path": ""
+          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytes.png?v=1734641048460"
         },
         {
           "label": "Video",
@@ -83,8 +83,8 @@
     {
       "id": "recipebytes-ios",
       "title": "Recipe Bytes App",
-      "description": "A full-stack all-in-one cooking aid and food tracker using Swift and Firebase.",
-      "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB.",
+      "description": "A full-stack all-in-one cooking aid and food tracker iOS app using Swift and Firebase.",
+      "full_description": "A full-stack all-in-one cooking aid and food tracker iOS app utilizing Firebase and API calls to TheMealDB. Techniques used include: <ul><li>CloudFirestore</li><li>Firebase Login/Authentication</li><li>FirebaseStorage Image Sharing</li>MVVM organization</li><li>Custom Structs for data</li><li>Passing data between custom views</li><li>TheMealDB API and JSON parsing</li><li>TabView and hierarchical page navigation</li></ul>",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
       "tags": ["Swift", "SwiftUI", "Firebase"],
       "materials": [
@@ -189,5 +189,5 @@
       ]
     }
   ],
-  "featured": ["recipebytes-ios", "motorcontrol", "recipeBytes"]
+  "featured": ["recipebytes-ios", "motorcontrol", "recipebytes"]
 }
