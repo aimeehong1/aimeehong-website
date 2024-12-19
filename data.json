@@ -84,7 +84,7 @@
       "id": "recipebytes-ios",
       "title": "Recipe Bytes App",
       "description": "A full-stack all-in-one cooking aid and food tracker iOS app using Swift and Firebase.",
-      "full_description": "A full-stack all-in-one cooking aid and food tracker iOS app utilizing Firebase and API calls to TheMealDB. Techniques used include: <ul><li>CloudFirestore</li><li>Firebase Login/Authentication</li><li>FirebaseStorage Image Sharing</li>MVVM organization</li><li>Custom Structs for data</li><li>Passing data between custom views</li><li>TheMealDB API and JSON parsing</li><li>TabView and hierarchical page navigation</li></ul>",
+      "full_description": "A full-stack all-in-one cooking aid and food tracker iOS app utilizing Firebase and API calls to TheMealDB. Techniques used include: <ul><li>CloudFirestore</li><li>Firebase Login/Authentication</li><li>FirebaseStorage Image Sharing</li><li>MVVM organization</li><li>Custom Structs for data</li><li>Passing data between custom views</li><li>TheMealDB API and JSON parsing</li><li>TabView and hierarchical page navigation</li></ul>",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
       "tags": ["Swift", "SwiftUI", "Firebase"],
       "materials": [

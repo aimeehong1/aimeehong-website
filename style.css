@@ -278,13 +278,21 @@ table tr {
   color: #1688a6;
 }
 
+.project-container-page .project-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .project-container-page p {
   padding-bottom: 10px;
 }
 
 .project-container-page ul {
-  list-style: none;
-  font-weight: bold; 
+/*   list-style: none; */
+  font-style: italic; 
+/*   width: fit-content;
+  justify-content: center; */
 }
 
 .project-container-page ul li {
