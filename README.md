@@ -1,6 +1,6 @@
 # Hello website!
 
-This is a website built with HTML, CSS, and JavaScript. Access my site via this link: <a href="https://aimeehong.glitch.me/">aimeehong</a>
+This is a website built with HTML, CSS, and JavaScript. Access my site via this link: <a href="https://aimeehong.glitch.me/" target="_blank" rel="noopener noreferrer">aimeehong</a>
 
 ## What's in this project?
 
