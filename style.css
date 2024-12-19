@@ -289,10 +289,8 @@ table tr {
 }
 
 .project-container-page ul {
-/*   list-style: none; */
+  list-style: none;
   font-style: italic; 
-/*   width: fit-content;
-  justify-content: center; */
 }
 
 .project-container-page ul li {

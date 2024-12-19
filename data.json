@@ -68,7 +68,7 @@
       "description": "A full-stack cooking aid, meal recommender, and food tracker web application using React, JavaScript, HTML, CSS, and Firebase.",
       "full_description": "A full-stack cooking aid, meal recommender, and food tracker web application. The full-tech stack includes React, JavaScript, HTML, CSS, Firebase, Material UI, and the Spoonacular API. The walkthrough video is narrated by <a href='https://github.com/LindaZhang23' target='_blank' rel='noopener noreferrer'> Linda Zhang</a>",
       "link": "https://github.com/sigetg/RecipeBytes",
-      "tags": ["HTML", "CSS", "React", "JavaSCript", "Firebase"],
+      "tags": ["HTML", "CSS", "React", "JavaScript", "Firebase"],
       "materials": [
         {
           "label": "Photo",
