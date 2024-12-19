@@ -65,7 +65,7 @@
     {
       "id": "motorcontrol",
       "title": "Motor Control Analysis",
-      "description": "A machine learning project on Motor Control Analysis with MathWorks.",
+      "description": "A three month long machine learning project on supervised learning motor control analysis with MathWorks.",
       "full_description": "Coded a closed-loop machine learning system to predict motor control performance and anomalies using synthesized data from three-phase induction motors and presented insights to MathWorks technical staff. My team and I utilized synthesized data, classical motor theory, supervised learning, and deep learning approaches including Long Short-Term Memory and Convolutional Neural Networks. Here are our results: <ul><li>Accuracy: 87.5%</li><li>Recall: 88.4%</li><li>Precision: 87.5%</li></ul>",
       "link": "https://github.com/aimeehong1/MotorControlAI?tab=readme-ov-file",
       "tags": ["Python", "MATLAB", "Simulink"],
