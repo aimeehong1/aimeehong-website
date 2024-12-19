@@ -6,7 +6,7 @@ export default function renderProjectPage(data) {
   main.classList.add("project-container");
   main.innerHTML = `<section class="project-page">
         <h1>Projects</h1>
-        <div class="search" id="projects">
+        <div class="search" id="project-page">
           <input type="search" name='projects' placeholder="Search Projects...">
         </div>
         <ul class="projectlist">
@@ -14,7 +14,7 @@ export default function renderProjectPage(data) {
         </ul>
       </section>`;
   
-  const searchProject = document.querySelector("#projects.search");
+  const searchProject = document.querySelector("#project-page.search");
   console.log(searchProject);
   searchProject.addEventListener("input", (e) => {
     console.log(e.currentTarget);
@@ -32,7 +32,7 @@ export default function renderProjectPage(data) {
     const list = document.querySelector(".projectlist");
     console.log("list is", list);
     list.innerHTML = filtered
-      .map((newsitem) => renderProject(newsitem))
+      .map((project) => renderProjectPageProject(project))
       .join("");
   });
 }

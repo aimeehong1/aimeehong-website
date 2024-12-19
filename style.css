@@ -164,7 +164,7 @@ h3 {
   font-size: 0.9rem;
   padding: 0.5rem;
   border-radius: 1rem;
-  border: 1px solid #eeeeee;
+  border: 1px solid #000000;
   font-family: "Roboto", sans-serif;
 }
 
@@ -187,10 +187,7 @@ table tr {
   height: 7em;
 }
 
-.project-page {
-  width: 100%;
-}
-
+/*  Project pages */
 .projects ul,
 .project-page ul {
   list-style-type: none;
@@ -199,11 +196,14 @@ table tr {
   font-size: large;
 }
 
+.project-page {
+  width: 100%;
+}
+
 .project-page button {
   margin: 3px;
 }
 
-/*  Project pages */
 .project-container {
   background-color: #ffffff;
   grid-template-columns: 1fr 1fr;
@@ -266,6 +266,8 @@ table tr {
   transform: scale(1.05);
 }
 
+
+/*  project detail pages */
 .project-container-page {
   border-radius: 0px;
   border: none;

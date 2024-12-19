@@ -63,6 +63,24 @@
   },
   "projects": [
     {
+      "id": "recipebytes-ios",
+      "title": "Recipe Bytes App",
+      "description": "A full-stack all-in-one cooking aid and food tracker using Swift and Firebase.",
+      "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB.",
+      "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
+      "tags": ["Swift", "SwiftUI", "Firebase"],
+      "materials": [
+        {
+          "label": "Photo",
+          "path": "https://cdn.glitch.global/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/Recipe%20Bytes.png?v=1734467962890"
+        },
+        {
+          "label": "Video",
+          "path": "https://cdn.glitch.me/a120491a-6f47-41c4-8f1a-8a5eb3c463b0/RecipeBytes.mp4?v=1734468198501"
+        }
+      ]
+    },
+    {
       "id": "motorcontrol",
       "title": "Motor Control Analysis",
       "description": "A three month long machine learning project on supervised learning motor control analysis with MathWorks.",
@@ -81,9 +99,9 @@
       ]
     },
     {
-      "id": "recipebytes-ios",
-      "title": "Recipe Bytes App",
-      "description": "A full-stack all-in-one cooking aid and food tracker using Swift and Firebase.",
+      "id": "recipebytes",
+      "title": "Recipe Bytes",
+      "description": "A full-stack cooking aid,  and Firebase.",
       "full_description": "A full-stack all-in-one cooking aid and food tracker utilizing Firebase and API calls to TheMealDB.",
       "link": "https://github.com/aimeehong1/RecipeBytes-iOS",
       "tags": ["Swift", "SwiftUI", "Firebase"],
