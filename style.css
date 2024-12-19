@@ -155,7 +155,8 @@ h3 {
 .news {
   align-items: top;
   margin: 10px 0px;
-  overflow-y: auto;
+  height: 20em;
+  overflow-y: scroll;
 }
 
 .search input {
@@ -207,10 +208,6 @@ table tr {
 .project-container h1 {
   font-size: 40px;
   padding: 1em;
-}
-
-.search input .project-container {
-  border: solid;
 }
 
 .project-container .project {

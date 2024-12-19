@@ -1,3 +1,5 @@
+import {renderProject} from "./Projects.js"
+
 export default function renderProjectPage(data) {
   const main = document.querySelector("main");
   main.classList.remove("container");
@@ -11,6 +13,28 @@ export default function renderProjectPage(data) {
           ${data.projects.map((p) => renderProjectPageProject(p)).join("")}
         </ul>
       </section>`;
+  
+  const searchProject = document.querySelector("#projects.search");
+  console.log(searchProject);
+  searchProject.addEventListener("input", (e) => {
+    console.log(e.currentTarget);
+    console.log(e.target);
+    console.log(e.target.value);
+    const value = e.target.value;
+
+    const filtered = data.projects.filter((projectitem) =>
+      projectitem.title.toLowerCase().includes(value.toLowerCase()) ||
+      projectitem.description.toLowerCase().includes(value.toLowerCase())
+    );
+
+    console.log("filtered=", filtered);
+
+    const list = document.querySelector(".projectlist");
+    console.log("list is", list);
+    list.innerHTML = filtered
+      .map((newsitem) => renderProject(newsitem))
+      .join("");
+  });
 }
 function renderProjectPageProject(project) {
   const p = project.materials.find((p) => p.label == "Photo");
